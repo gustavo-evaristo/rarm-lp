@@ -13,12 +13,19 @@ export default function Home() {
   return (
     <main>
       <Header />
+
       <Info />
+
       <About />
+
       <Features />
+
       <Form />
+
       <Feedbacks />
+
       <Team />
+
       <Footer />
     </main>
   );

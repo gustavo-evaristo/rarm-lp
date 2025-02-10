@@ -3,7 +3,7 @@ import { InfoCard } from "../components/InfoCard";
 
 export function Info() {
   return (
-    <section className="flex gap-12 flex-wrap px-32 mt-32">
+    <section className="flex gap-12 flex-wrap px-4 lg:px-32 mt-4 lg:mt-32">
       <InfoCard
         title="Experiência e Expertise"
         description="Conte com uma equipe contábil experiente e altamente qualificada."

@@ -12,8 +12,8 @@ export function Input({ placeholder, large, hasError, ...props }: Props) {
       {...props}
       placeholder={placeholder}
       className={classNames(
-        "w-[394px] p-2 rounded-md border border-low-light",
-        large && "w-[600px]",
+        "w-[330px] lg:w-[300px] xl:w-[394px] p-2 rounded-md border border-low-light",
+        large && "lg:w-[460px] xl:w-[600px]",
         hasError && "border-red-500"
       )}
     />

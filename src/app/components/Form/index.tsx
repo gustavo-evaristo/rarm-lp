@@ -36,28 +36,26 @@ export function Form() {
   }
 
   return (
-    <section className="flex flex-col items-center justify-center gap-4 px-32 mt-32">
-      <h4 className="text-primary-pure font-bold text-2xl uppercase">
+    <section className="flex flex-col items-center justify-center gap-4 px-4 lg:px-32 mt-32">
+      <h4 className="text-primary-pure font-bold text-base lg:text-2xl uppercase">
         Simule seu Orçamento em Minutos!
       </h4>
 
-      <h3 className="text-center text-[42px]/[40px] text-low-pure font-semibold">
-        Descubra agora quanto você pode <br />
-        economizar com a RARM
+      <h3 className="text-center text-3xl/[30px] lg:text-[42px]/[46px] text-low-pure font-semibold lg:max-w-[800px]">
+        Descubra agora quanto você pode economizar com a RARM
       </h3>
 
-      <h5 className="font-normal text-low-pure text-xl/[26px] text-center">
+      <h5 className="font-normal text-low-pure text-base lg:text-xl/[26px] text-center lg:max-w-[800px]">
         Preencha o formulário abaixo e receba uma simulação de orçamento
-        personalizada
-        <br /> para sua empresa. É rápido, fácil e sem compromisso!
+        personalizada para sua empresa. É rápido, fácil e sem compromisso!
       </h5>
 
       <form
         id="form"
-        className="mt-40 py-4 flex flex-col gap-6 px-32"
+        className="mt:20 lg:mt-40 py-4 flex flex-col gap-4 lg:gap-6 lg:px-32"
         onSubmit={handleSubmit(submitForm)}
       >
-        <div className="flex gap-14">
+        <div className="flex gap-4 lg:gap-14 flex-col lg:flex-row">
           <div className="flex flex-col gap-1">
             <label>Regime Tributário</label>
 
@@ -123,7 +121,7 @@ export function Form() {
           </div>
         </div>
 
-        <div className="flex gap-14">
+        <div className="flex gap-4 lg:gap-14 flex-col lg:flex-row">
           <div className="flex flex-col gap-1">
             <label>Faixa de Faturamento</label>
 
@@ -180,7 +178,7 @@ export function Form() {
           </div>
         </div>
 
-        <div className="flex gap-9">
+        <div className="flex gap-4 lg:gap-9 flex-col lg:flex-row">
           <div className="flex flex-col gap-1">
             <label>Nome</label>
             <Controller

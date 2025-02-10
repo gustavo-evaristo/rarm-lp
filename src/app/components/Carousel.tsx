@@ -62,7 +62,7 @@ export function Carousel() {
         "https://lh3.googleusercontent.com/a/ACg8ocLG-SlnTcrDyesThul98lIyEplB9NHEUscVBnx_7JOUDGLBOA=w80-h80-c-rp-mo-br100",
     },
     {
-      name: "Glauber Porcides",
+      name: "Vitrum Agência",
       description:
         "BOM DEMAIS! Me salvaram no famoso MEI faturando mais que 6k mês heheheheeh!!!! INDICO MUITO, parabéns a todo time da RARM, a qualidade do atendimento e resolução é surreal.",
       image:

@@ -22,7 +22,7 @@ export function Select({
     <select
       value=""
       className={classNames(
-        "w-[600px] p-2 rounded-md border border-low-light",
+        "w-[330px] lg:w-[460px] xl:w-[600px] p-2 rounded-md border border-low-light",
         hasDefaultValue ? "text-low-light" : "text-low-pure",
         hasError && "border-red-500"
       )}

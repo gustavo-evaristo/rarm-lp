@@ -8,7 +8,7 @@ interface Props {
 
 export function FeedbackCard({ name, description, image }: Props) {
   return (
-    <div className="w-[440px] p-10 rounded-lg flex flex-col gap-4 mx-4 bg-high-pure shadow-lg">
+    <div className="w-[330px] lg:w-[312px] xl:w-[440px] p-10 rounded-lg flex flex-col gap-4 mx-4 bg-high-pure shadow-lg">
       <span className="text-low-pure text-lg/[25px] font-normal">
         {description}
       </span>

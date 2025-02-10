@@ -3,8 +3,8 @@ import { FeatureCard } from "../components/FeatureCard";
 
 export function Features() {
   return (
-    <section className="bg-primary-extra-light w-full mt-52">
-      <div className="px-44 py-20 flex items-center justify-center">
+    <section className="bg-primary-extra-light w-full mt-32 lg:mt-52">
+      <div className="lg:px-44 py-20 flex items-center justify-center flex-col lg:flex-row gap-12 lg:gap-0">
         <FeatureCard
           title="Conformidade com a Legislação"
           description="100%"
